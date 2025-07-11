@@ -1,0 +1,107 @@
+# Excluir archivos y directorios innecesarios del build
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.coverage
+.pytest_cache/
+.vscode/
+.idea/
+.git/
+.gitignore
+README.md
+.env
+.env.local
+
+# Archivos temporales y de output que se regeneran
+output/*
+public_downloads/*
+temp_uploads/*
+*.log
+
+# Dependencias del sistema
+node_modules/
+.npm/
+
+# Archivos de Docker
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# Directorios de Python
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+
+# Archivos de output temporales que se regeneran
+output/*.pdf
+output/*.png
+output/*.json
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# IDE y editores
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Archivos de configuración local
+config.local.py
+
+# Archivos temporales grandes
+*.tmp
+
+# Archivos de Git
+.git
+.gitignore
+
+# Archivos Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Archivos de desarrollo
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de logs
+*.log
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de Docker (evitar recursión)
+Dockerfile
+.dockerignore
+
+# Outputs anteriores (se regeneran)
+output/*.pdf
+public_downloads/*.pdf
+temp_uploads/*
+
+# Archivos de documentación no esenciales
+README.md
+*.md
+
+# Archivos de configuración local
+.env
+.env.local
+.env.*.local 
